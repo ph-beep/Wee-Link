@@ -1,17 +1,17 @@
 {
   "expo": {
-    "name": "link_manager",
-    "slug": "link_manager",
+    "name": "Wee Links",
+    "slug": "Wee Links",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "linkmanager",
-    "userInterfaceStyle": "automatic",
+    "scheme": "weelinks",
+    "userInterfaceStyle": "dark",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/images/splash-icon.png",
+      "image": "./assets/images/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#09090B"
     },
     "ios": {
       "supportsTablet": true
@@ -19,7 +19,7 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#09090B"
       },
       "edgeToEdgeEnabled": true
     },
