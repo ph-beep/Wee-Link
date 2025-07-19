@@ -1,10 +1,15 @@
-import { Text, View, StyleSheet } from "react-native"
+import { View, Image } from "react-native"
 import { styles } from "./styles"
+import { MaterialIcons } from "@expo/vector-icons"
+import { colors } from "@/styles/colors"
 
 export default function Index() {
     return (
         <View style={styles.container}>
-            <Text style={styles.title}>Hello, World!!</Text>
+            <View style={styles.header}>
+                <Image source={require("@/assets/logo.png")} style={styles.logo}/>
+                <MaterialIcons name="add" size={32} color={colors.green[300]}></MaterialIcons>
+            </View>
         </View>
     )
 }
